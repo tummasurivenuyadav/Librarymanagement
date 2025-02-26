@@ -48,7 +48,7 @@ class Book implements Borrowable {
             borrowedBy = null;
             System.out.println(userId + " returned " + title);
         } else {
-            System.out.println("You cannot return a book you didn't borrow.");
+            System.out.println("You cannot return a book because you didn't borrow.");
         }
     }
 
